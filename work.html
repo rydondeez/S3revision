@@ -1,0 +1,370 @@
+ <!DOCTYPE html>
+ <html>
+<head>
+    <title>Work Page</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+
+<body>
+
+<style>
+.container {
+ width: 375px;
+ height: 375px;
+ margin-top: 20px;
+
+ 
+    
+}
+
+.content {
+ width: 220px;
+ height: 180px;
+ border: 2px solid red;
+ 
+}
+
+.option {
+    background: navy;
+    color: white;
+    border: 2px solid #fdbb2d;
+    font-weight: bold;
+    border-radius: 50px;
+    width: 100px;
+    height: 50px;
+    margin: 10px;
+    font-family: poppins, sans-serif;
+    font-size: 14px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+.option:hover {
+    color: navy;
+    background: #fdbb2d;
+    transform: translateY(-5px);
+}
+
+body {
+   display: flex;
+   flex-direction: column;
+    align-items: center;
+    font-family: poppins, sans-serif;
+    background-image: linear-gradient(to left bottom ,indigo,darkblue);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 0px;
+    color: white;
+    width: 100%;
+}
+
+.section {
+            background: rgba(255, 255, 255, 0.95);
+            border-radius: 10px;
+            padding: 40px;
+            margin-bottom: 30px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            scroll-margin-top: 20px;
+            width: 40%;
+            line-height: 2;
+        }
+
+        .section h2 {
+            color: #1a2a6c;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #fdbb2d;
+        }
+
+         .section p {
+            margin-bottom: 15px;
+        }
+
+        .section-content {
+            display: flex;
+            gap: 20px;
+            align-items: center;
+        }
+
+        .section-text {
+            flex: 1;
+            color: rgb(61, 60, 60);
+            margin-bottom: 15px;
+        }
+
+        a {
+            color: rgb(61, 60, 60);
+            text-decoration: none;
+            margin-bottom: 15px;
+        }
+        a:hover {
+            text-decoration: underline;
+            color: darkgreen;
+            transform: translateY(-5px);
+        }
+
+        #section7 {
+            list-style: none;
+        }
+
+        .checklist-item {
+            display: flex;
+            align-items: center;
+            padding: 15px;
+            margin-bottom: 10px;
+            background: #f8f9fa;
+            border-radius: 10px;
+            transition: all 0.3s ease;
+            border-left: 4px solid #2575fc;
+        }
+
+        .checklist-item:hover {
+            background: #e9ecef;
+            transform: translateX(5px);
+        }
+
+        .checklist-item.checked {
+            background: #e8f5e9;
+            border-left-color: #4caf50;
+        }
+
+        .checkbox {
+            width: 22px;
+            height: 22px;
+            margin-right: 15px;
+            cursor: pointer;
+            accent-color: #4caf50;
+        }
+
+        .item-label {
+            flex: 1;
+            font-size: 1.1rem;
+        }
+
+        .item-label.checked {
+            text-decoration: line-through;
+            color: #777;
+        }
+
+
+
+
+        
+
+
+</style>
+
+<header class="header">
+    <h1>Welcome to the Work Page</h1>
+    <p>This is where you can find information about my professional work and projects.</p>
+</header>
+
+
+<section class="container">
+<button class="option" onclick="scrollToSection('section1')"> Compta de gestion</button>
+<button class="option" onclick="scrollToSection('section2')"> Commerce et logistic</button>
+<button class="option" onclick="scrollToSection('section3')"> Eco international</button>
+<button class="option" onclick="scrollToSection('section4')"> Droit</button>
+<button class="option" onclick="scrollToSection('section5')"> Math fin</button>
+<button class="option" onclick="scrollToSection('section6')"> DIF</button>
+<button class="option" onclick="scrollToSection('section7')"> Digital skills</button>
+<button class="option" onclick="scrollToSection('section8')"> Anglais</button>
+<button class="option" onclick="scrollToSection('section9')"> Français</button>
+
+
+ 
+
+
+</section>
+
+
+    <section class="section" id="section1">
+    <h2>Compta de gestion</h2>
+    <div class="section-content">
+                <div class="section-image">
+                    <i class="fas fa-cogs"></i>
+                </div>
+                <div class="section-text">
+                    <p>Comptabilité de gestion :</p>
+                    <ul>
+                        <li>Chapitre 1: Introduction <a href="revision/Revision/CH1& CH2 C Gestion S3.pdf"> $ </a><a href="revision/Revision/png2pdf.pdf"> TD 1</a></li>
+                        <li>Chapitre 2: La hierarchie des couts <a href="revision/Revision/TD 2 C Gestion S3 - 2025_2026.pdf"> TD 2</a></li>
+                        <li>Chapitre 3: Methodes de valorisation des Stocks <a href="revision/Revision/TD 3 C gestion S3-2024_25.pdf"> TD 3</a></li>
+                    </ul>
+                    <p>Autres ressources :</p>
+
+                    <ul>
+                        <li><a href="revision/Revision/Explication Méthodes D'evaluation des stocks .xlsx"> Explication Méthodes D'evaluation des stocks</a></li>
+                        <li><a href="revision/Revision/corrigé TD 2 ex2-ex3.pdf"> Corrigé TD 2 ex2-ex3 </a></li>
+                    </ul>
+                </div>
+            </div>
+</section>
+<section class="section" id="section2">
+    <h2>Commerce et logistic</h2>
+
+    <ul>
+        <li> Chapitre 1: Les fondements du Commerce </li>
+        <li> Chapitre 2: Les fondements de la logistic </li>
+        <li> Chapitre 3: La logistic pilier strategique du succes comercial </li>
+        <li> Chapitre 4: La logistic et son impact dans l'optimisation des activites commerciales</li>
+
+    </ul>
+
+</section>
+<section class="section" id="section3">
+    <h2>Eco international</h2>
+    <ul>
+        <li> Partie 1: Commerce international / <a href="revision/Revision/eco 1 1.pdf"> TD1</a> et <a href="revision/Revision/eco2.pdf"> TD2</a> </li>
+        <li> Partie 2: Relations Macro-economiques internationaux </li>
+        <li> Partie 3: Analyses economiques des cas empiriques </li>
+
+    </ul>
+        
+</section>
+<section class="section" id="section4">
+    <h2>Droit</h2>
+    <div class="section-text">
+                    <p>Mathematics financière :</p>
+                    <ul>
+                        <li><a href="https://farajsite23620264.wordpress.com/2018/11/25/mes-cours/"> Droit des affaires </a></li>
+                    </ul>
+                </div>
+
+</section>
+<section class="section" id="section5">
+    <h2>Math fin</h2>
+    <div class="section-content">
+                <div class="section-image">
+                    <i class="fas fa-cogs"></i>
+                </div>
+                <div class="section-text">
+                    <p>Mathematics financière :</p>
+                    <ul>
+                        <li><a href="revision/Revision/Math financière (Cours+Exercices corrigés) .pdf"> Math financière (Cours+Exercices corrigés)</a></li>
+                        <li class="checklist-item">
+                            <input type="checkbox" class="checkbox" id="itema">
+                            <label for="itema" class="item-label"> <a href="revision/Revision/Série 1.pdf">Série 1</a></li> </label>
+                            
+                        <li class="checklist-item">
+                            <input type="checkbox" class="checkbox" id="itemb">
+                            <label for="itemb" class="item-label"> <a href="revision/Revision/Série 2.pdf">Série 2</a> </label> 
+                            
+                        </li>
+                        <li class="checklist-item">
+                            <input type="checkbox" class="checkbox" id="itemc">
+                            <label for="itemc" class="item-label"> <a href="revision/Revision/Série 3.pdf">Série 3</a> </label>
+                            
+                        </li>
+                        <li class="checklist-item">
+                            <input type="checkbox" class="checkbox" id="itemd">
+                            <label for="itemd" class="item-label"> <a href="revision/Revision/Série 4.pdf">Série 4</a> </label>
+                            
+                        </li>
+                        <li class="checklist-item">
+                            <input type="checkbox" class="checkbox" id="iteme">
+                            <label for="iteme" class="item-label"> <a href="revision/Revision/Série 5.pdf">Série 5</a> </label>
+                            
+                        </li>
+                    </ul>
+                   
+                </div>
+            </div>
+</section>
+<section class="section" id="section6">
+    <h2>DIF</h2>
+    <div class="section-content">
+                <div class="section-image">
+                    <i class="fas fa-cogs"></i>
+                </div>
+                <div class="section-text">
+                    <p>Decision d'investissement et de financement :</p>
+                    <ul>
+                        <li><a href="revision/Revision/Cas+ DIF, Calcul des CF.pdf"> Cas+ DIF, Calcul des CF </a></li>
+                        <li><a href="revision/Revision/Correction du TD DIF, exercices 1 & 2.pdf">Correction du TD DIF, exercices 1 & 2</a></li>
+                    </ul>
+                </div>
+            </div>
+</section>
+<section class="section" id="section7">
+    <h2>Digital skills</h2>
+    <ul class="checklist" id="checklist">
+        <li class="checklist-item">
+            <input type="checkbox" class="checkbox" id="item1">
+            <label for="item1" class="item-label"> Tp 1 </label>
+
+        </li>
+        <li class="checklist-item">
+            <input type="checkbox" class="checkbox" id="item2">
+            <label for="item2" class="item-label"> Tp 2 </label>
+
+        </li>
+        <li class="checklist-item">
+            <input type="checkbox" class="checkbox" id="item3">
+            <label for="item3" class="item-label"> Tp 3 </label>
+
+        </li>
+    </ul>
+</section>
+<section class="section" id="section8">
+    <h2>Anglais</h2>
+</section>
+<section class="section" id="section9">
+    <h2>Français</h2>
+</section>
+
+
+
+
+
+
+
+
+
+<script>
+        // Function to scroll to a specific section
+        function scrollToSection(sectionId) {
+            const element = document.getElementById(sectionId);
+            if (element) {
+                element.scrollIntoView({ 
+                    behavior: 'smooth',
+                    block: 'start'
+                });
+            }
+        }
+
+        // Show/hide back to top button based on scroll position
+        window.addEventListener('scroll', function() {
+            const backToTopButton = document.getElementById('backToTop');
+            if (window.pageYOffset > 300) {
+                backToTopButton.classList.add('show');
+            } else {
+                backToTopButton.classList.remove('show');
+            }
+        });
+
+        // Back to top functionality
+        document.getElementById('backToTop').addEventListener('click', function() {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        });
+    </script>
+
+
+</body>
+
+
+
+
+
+ </html>
